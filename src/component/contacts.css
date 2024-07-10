@@ -9,8 +9,12 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Box shadow on hover */
 }
 .idsc{
-    position: relative;
-    left: 70px;
     display: flex;
     justify-content: center;
 }    
+@media (max-width: 768px) and (min-width: 0px){
+   .idsc{
+    display: flex;
+    justify-content: space-evenly;
+   }
+  }
