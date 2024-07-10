@@ -21,4 +21,10 @@
     background-color: #0056b3;
     transform: scale(1.1);
   }
+
   
+  @media (max-width: 539px) and (min-width: 0px) {
+    .scroll-to-top{
+      bottom:100px;
+    }
+  }

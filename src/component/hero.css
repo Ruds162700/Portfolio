@@ -9,7 +9,7 @@
 }
 
 .content {
-  font-size: x-large;
+
   position: relative;
   left: 20px;
   padding: 20px;
@@ -92,4 +92,8 @@
     padding: 20px;
     top:20px;
   }
+  .image {
+    width: 250px;
+  }
+  
 }
