@@ -1,0 +1,25 @@
+.work {
+  padding: 50px 0;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.work-card {
+  width: 25rem;
+  margin: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.work-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space out content evenly */
+}
+
+.work-card .btn {
+  align-self: center;
+}
