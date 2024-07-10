@@ -47,7 +47,7 @@ const Hero = () => {
                 <h1>Hi There,</h1>
                 <h1>I'm Rudra <span id="na">Panchal</span></h1>
                 <h4>I'm Into <span id="web">{displayedText}</span><span className="cursor">|</span></h4>
-                <button id="abm">About Me</button>
+                <a href="#aboutme"><button id="abm">About Me</button></a>
             </div>
         </div>
     );
